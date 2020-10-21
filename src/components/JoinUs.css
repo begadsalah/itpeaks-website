@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+.join-us {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to top, #000000 91%, rgb(95, 68, 41) 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.firstRow4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin: 2rem 0;
+    margin-top: 4.5rem;
+}
+
+.join-us-col {
+    padding: 5rem 7rem;
+    background: transparent url("https://i.ibb.co/h248MGj/join-us-img.png") no-repeat center;
+    background-size: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.firstRow4-title {
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+
+.title-span1 {
+    color: rgb(109, 80, 52);
+    letter-spacing: 0.4rem;
+}
+
+.our-story2 {
+    max-width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.884);
+    background-color: rgb(95, 68, 41, 0.3);
+    padding: 1rem;
+    border-radius: 99999rem;
+    margin-bottom: 6rem;
+}
+
+.our-story2>h4 {
+    font-weight: 600;
+    color: rgb(77, 54, 32);
+    padding-bottom: 1rem;
+}
+
+.thirdRow4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thirdRow4-row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.thirdRow4-row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+
+.thirdRow4-cols2-h4 {
+    color: rgb(146, 106, 72);
+}
+
+.thirdRow4-cols2-h6 {
+    color: rgba(245, 245, 245, 0.753);
+    font-size: 0.78rem;
+}
+
+.thirdRow4-cols1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdRow4-cols1-h1 {
+    color: rgba(245, 245, 245, 0.9);
+    border-top: 2px solid rgb(95, 68, 41);
+    border-bottom: 2px solid rgb(56, 56, 56);
+    border-radius: 999999px;
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.thirdRow4-cols1>h4 {
+    color: rgba(245, 245, 245, 0.9);
+}
+
+.thirdRow4-cols2 {
+    border: 5px solid black;
+    padding: 2rem 0rem;
+    margin: 0 0.5rem;
+    background: linear-gradient(to top, #000000 10%, rgba(95, 68, 41, 0.5) 100%);
+    border-radius: 3%;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5rem 0;
+}
+
+.apply-button {
+    background-color: transparent;
+    border: 1px solid rgba(245, 245, 245, 0.753);
+    padding: 0.4rem 1.5rem;
+    color: rgba(245, 245, 245, 0.753);
+    border-radius: 99999px;
+    margin: 0 0.5rem;
+}
+
+.apply-button:hover {
+    text-decoration: none;
+    color: rgb(142, 117, 93);
+}
+
+.inputfile {
+
+    color: rgb(142, 117, 93);
+    display: inline-block;
+    cursor: pointer;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    padding: 0 3rem;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.inputfile+label {
+    cursor: pointer;
+    /* "hand" cursor */
+}
+
+.inputfile:focus+label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.file-input-div {
+    padding: 0.7rem;
+    margin-top: 2rem;
+    border-radius: 999999px;
+    border: 2px solid rgb(142, 117, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+/*--------------MASKS-------------*/
+.mask1x {
+    padding: 13rem 33rem !important;
+}

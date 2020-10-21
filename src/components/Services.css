@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Ubuntu&display=swap");
+
+.services {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.925);
+  margin-top: -15rem;
+  transform: scale(0.77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstRow-cols-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.secondRow-cols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondRow-cols-para {
+  font-size: 1rem;
+  max-width: 50rem;
+}
+
+.see-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none !important;
+}
+
+.see-more-span {
+  cursor: pointer;
+  color: white;
+}
+
+.animated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-card {
+  width: 18rem;
+  height: 35rem;
+  background-color: rgb(2, 2, 2);
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s ease-in;
+}
+
+.dev-icon {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in;
+}
+
+.coffeeIcon {
+  font-size: 6rem !important;
+  margin-bottom: 0.1rem;
+}
+
+.card-button {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 9999px;
+  margin-top: 9rem;
+  padding: 0.5rem 1.2rem;
+  transition: 0.3s ease-in;
+  outline: none;
+}
+
+.services-card:hover {
+  background-color: rgb(238, 228, 228);
+  transform: scale(1.1);
+  color: black;
+}
+
+.cardTitle {
+  padding: 3rem;
+}
+
+/*.cardTitle:hover {
+  -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+*/
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

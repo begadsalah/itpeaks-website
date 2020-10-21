@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.services-page-plus {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    transform: scale(0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cols-title {
+    color: white;
+    letter-spacing: 0.35rem;
+    padding-bottom: 1rem;
+}
+
+.cols-para {
+    color: white;
+}
+
+.cols-text-content-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8rem 2rem;
+    z-index: 1;
+}
+
+.web-app-deve-section {
+    margin-bottom: 5rem;
+}
+
+.cols-section-num {
+    color: rgb(224, 140, 71);
+    font-size: 20rem;
+    position: absolute;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.imageBackground-div {
+    background: linear-gradient(to top, #000000 10%, #5c391d 100%);
+    width: 42rem;
+    height: 42rem;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.imageBackground-div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rem;
+    margin-right: 35rem;
+    background: linear-gradient(to top, #000000 3%, #a5612a73 100%);
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.imageBackground-div2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rem;
+    margin-left: 35rem;
+    background: linear-gradient(to top, #000000 3%, #a5612a73 100%);
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.imageBackground-div2-title {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    position: absolute;
+    text-shadow: 5px 5px #000000;
+    opacity: 0.9;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+    /* .imageBackground-div,
+    .imageBackground-div2,
+    .imageBackground-div2-1,
+    .imageBackground-div2-title {
+        display: none;
+    }
+
+    .cols-text-content-div {
+        transform: scale(0.8);
+    }*/
+}
+
+@media screen and (max-width: 700px) {
+
+    .services-page-firstRow,
+    .services-page-secondRow,
+    .services-page-thirdRow,
+    .services-page-fourthRow {
+        transform: scale(0.3);
+        margin-top: -20rem;
+        padding: 0;
+    }
+
+    .imageBackground-div,
+    .imageBackground-div2,
+    .imageBackground-div2-1,
+    .imageBackground-div2-title {
+        display: none;
+    }
+
+    .cols-text-content-div {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cols-title {
+        transform: scale(0.6);
+    }
+}

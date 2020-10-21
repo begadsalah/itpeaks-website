@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #000000 93%, rgb(95, 68, 41) 100%);
+    color: white;
+}
+
+.firstRow1 {
+    margin-top: 7rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.firstRow1-cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 48%;
+    padding-bottom: 5rem;
+}
+
+.our-story {
+    max-width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.884);
+    background-color: rgb(95, 68, 41, 0.3);
+    padding: 1rem;
+    border-bottom-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+
+.our-story>h4 {
+    font-weight: 600;
+    color: rgb(77, 54, 32);
+    padding-bottom: 1rem;
+}
+
+.cols-text-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.884);
+    border-top: 2px solid rgb(95, 68, 41);
+    border-bottom: 2px solid rgb(56, 56, 56);
+    border-radius: 999999px;
+    padding: 1rem 0rem;
+}
+
+.cols-text-content>h1 {
+    letter-spacing: 0.5rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.secondRow1 {
+    margin-top: 19.7rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.secondRow1-cols {
+    padding: 1.5rem 4rem;
+}
+
+.secondRow1-title {
+    font-weight: 600;
+    padding-bottom: 2rem;
+    border-top: 2px solid rgb(95, 68, 41);
+    border-bottom: 2px solid rgb(56, 56, 56);
+    border-radius: 999999px;
+    padding: 2rem 2rem;
+}
+
+.secondRow1-subtitle {
+    color: rgb(95, 68, 41);
+    font-size: 1.5rem;
+}
+
+.thirdRow1 {
+    padding: 12rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.9)
+}
+
+.thirdRow1-cols {
+    padding: 6rem 2rem;
+}
+
+.title-col {
+    padding: 0rem;
+    margin: 0;
+}
+
+.subtitle-col {
+    padding: 0rem;
+    margin: 0;
+}
+
+.thirdRow1-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    border-top: 2px solid rgb(95, 68, 41);
+    border-bottom: 2px solid rgb(56, 56, 56);
+    border-radius: 999999px;
+}
+
+.thirdRow1-subtitle {
+    color: rgb(95, 68, 41);
+    font-size: 1.5rem;
+}
+
+.how-we-work-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.how-we-work-section>ul>li>p {
+    text-align: left;
+}
+
+.partner-span {
+    color: rgb(95, 68, 41);
+}
+
+.text-para {
+    text-align: left;
+}
+
+.fourthRow1 {
+    padding: 4rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthRow1-cols {
+    padding: 2rem 0;
+}
+
+.fourthRow1-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-bottom: 4rem;
+    padding: 1rem 4rem;
+    border-top: 2px solid rgb(95, 68, 41);
+    border-bottom: 2px solid rgb(56, 56, 56);
+    border-radius: 999999px;
+    display: inline-block;
+}
+
+.fourthRow1-subtitle {
+    color: rgb(95, 68, 41);
+    font-size: 1.5rem;
+}
+
+.fourthRow1-subtitle-subtitle {
+    color: rgb(148, 148, 148);
+    font-size: 0.7rem;
+}
+
+.organizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*---------------MASK CSS----------------------*/
+.mask1 {
+    padding: 20rem;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.3) 32%, rgba(87, 65, 43, 0.3) 100%);
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.mask1-1 {
+    margin-right: 40rem;
+    margin-top: 10rem;
+    padding: 20rem;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.1) 32%, rgb(95, 68, 41, 0.1) 100%);
+    border-radius: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.mask1-2 {
+    margin-left: 40rem;
+    margin-top: 10rem;
+    padding: 20rem;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.1) 32%, rgb(95, 68, 41, 0.1) 100%);
+    border-radius: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.mask2 {
+    background: rgb(176, 176, 176);
+    background: linear-gradient(90deg, rgba(102, 102, 102, 0.2) 49%, rgb(95, 68, 41, 0.2) 49%);
+    padding: 50rem;
+    position: absolute;
+}
+
+.mask3 {
+    padding: 15rem 40rem;
+    background: rgb(95, 68, 41, 0.1);
+    position: absolute;
+    border-bottom-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+
+.mask3-2 {
+    position: absolute;
+    padding: 2rem;
+    border-radius: 100%;
+    background: rgb(95, 68, 41, 0.1);
+}
+
+.mask3-2-1 {
+    position: absolute;
+    padding: 2rem;
+    border-radius: 100%;
+    background: rgb(95, 68, 41, 0.1);
+    left: 12.5rem;
+}
+
+.mask3-2-2 {
+    position: absolute;
+    padding: 2rem;
+    border-radius: 100%;
+    background: rgb(95, 68, 41, 0.1);
+    right: 12.5rem;
+}
+
+/*-------------MEDIA QUERY-------------*/
+@media screen and (max-width: 700px) {
+    .firstRow1 {
+        transform: scale(0.5);
+        margin: -3rem 0;
+        padding: 0;
+    }
+
+    .firstRow1-cols {
+        padding: 0 5rem;
+    }
+
+    .our-story {
+        margin-bottom: -5rem;
+    }
+
+    .secondRow1 {
+        transform: scale(0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: -8rem 0;
+        padding: 0;
+    }
+
+    .secondRow1-cols {
+        margin: 1rem 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mask {
+        display: none;
+    }
+
+    .cols-text-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .secondRow1-cols {
+        padding: 0;
+    }
+
+    .secondRow1-title {
+        padding: 0;
+        margin: 0;
+    }
+
+    .thirdRow1 {
+        transform: scale(0.6);
+        padding: 5rem 0;
+        margin: -20rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .thirdRow1-cols {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fourthRow1 {
+        transform: scale(0.6);
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: -20rem;
+    }
+
+    .fourthRow1-cols {
+        padding: 0;
+        margin: 0;
+        transform: scale(0.4);
+    }
+
+    .fourthRow1-title {
+        padding: 0;
+        margin: 0;
+        transform: scale(0.9);
+    }
+}

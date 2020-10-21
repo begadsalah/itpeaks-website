@@ -1,0 +1,63 @@
+.popup-modal {
+    background: rgba(0, 0, 0, 0.87) !important;
+}
+
+.popup-para-div {
+    color: black;
+    padding: 2rem 1.5rem;
+    text-align: left;
+}
+
+.popup-h1 {
+    text-align: center;
+    color: rgb(146, 106, 72);
+    margin-bottom: 1rem;
+}
+
+.popup-h4 {
+    text-align: center;
+    color: rgb(102, 102, 102);
+    margin-bottom: 3rem;
+}
+
+.learn-more-button {
+    background-color: transparent;
+    border: 1px solid rgba(245, 245, 245, 0.753);
+    padding: 0.4rem 1.5rem;
+    color: rgba(245, 245, 245, 0.753);
+    border-radius: 99999px;
+    margin: 0 0.5rem;
+}
+
+.learn-more-button:hover {
+    color: rgb(142, 117, 93);
+}
+
+.close-button-div {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.popup-close-button {
+    margin-left: 45%;
+    width: 10%;
+    margin-top: 2rem;
+    font-weight: 600;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    color: rgba(0, 0, 0, 0.705);
+    text-decoration: none !important;
+    border: 2px solid rgba(0, 0, 0, 0.733);
+    padding: 0.5rem 1rem;
+    border-radius: 99999px;
+}
+
+.popup-close-button:hover {
+    background-color: rgb(146, 106, 72) !important;
+    color: white !important;
+    border: 2px solid rgb(146, 106, 72) !important;
+}

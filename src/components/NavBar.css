@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+/*-------------------------------------- NAVBAR SECTION beganning------------------------------------------------*/
+.navBar {
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.925);
+    padding: 0 3rem;
+    font-size: 0.7rem;
+}
+
+.navBarBrand-img {
+    width: 3.55rem;
+    height: 3.55rem;
+    opacity: 0.9;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.925);
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.295) !important;
+}
+
+@media screen and (max-width: 1100px) {
+    .navBarBrand {
+        display: none;
+    }
+
+    .nav-link {
+        padding: 1rem 0;
+    }
+
+    .nav-link:hover {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .navItems {
+        display: inline;
+    }
+}
+
+.aboutLink,
+.servicesLink,
+.contactLink {
+    text-decoration: none !important;
+    color: white !important;
+}

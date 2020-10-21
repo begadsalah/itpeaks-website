@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+.employment {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.719);
+    padding: 12rem 0;
+}
+
+.employment-firstRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    border-top: 3px solid rgba(255, 255, 255, 0.445);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.445);
+    border-radius: 99999px;
+    cursor: pointer;
+}
+
+.firstRow-cols {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cols-title {
+    font-size: 5rem;
+}
+
+.cols-title-span {
+    color: rgba(216, 144, 85, 0.664);
+}
+
+.joinOurTeamLink {
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.719) !important;
+}
+
+@media screen and (max-width: 900px) {
+    .employment-firstRow {
+        border: none;
+    }
+}

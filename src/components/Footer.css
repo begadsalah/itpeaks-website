@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+.footer {
+    background: url("https://i.ibb.co/7kRDpKc/footer-Background2-2.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20rem;
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(255, 255, 255, 0.856);
+    text-align: center;
+}
+
+.mdb-row {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.socialMedia-div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: row;
+}
+
+.socialMedia-div>a {
+    padding-right: 0.5rem;
+}
+
+.mdb-links {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.MuiSvgIcon-root {
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.a-copyrights {
+    color: rgba(255, 255, 255, 0.856);
+}
