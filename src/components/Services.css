@@ -6,14 +6,11 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.925);
   margin-top: -15rem;
-  transform: scale(0.77);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  transform: scale(0.85);
 }
 
-.row {
-  padding: 1.2rem 0;
+.rows {
+  padding-top: 4.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +45,7 @@
 .see-more-span {
   cursor: pointer;
   color: white;
+  margin: 1rem 0;
 }
 
 .animated {
@@ -57,8 +55,8 @@
 }
 
 .services-card {
-  width: 18rem;
-  height: 35rem;
+  width: 100%;
+  height: 25rem;
   background-color: rgb(2, 2, 2);
   text-align: left;
   display: flex;
@@ -66,12 +64,13 @@
   align-items: center;
   flex-direction: column;
   transition: 0.3s ease-in;
+  margin: 0.9rem 0;
 }
 
 .dev-icon {
   color: white;
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 5.5rem;
+  margin-bottom: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,19 +78,25 @@
 }
 
 .coffeeIcon {
-  font-size: 6rem !important;
+  font-size: 7.5rem !important;
   margin-bottom: 0.1rem;
 }
+
 
 .card-button {
   color: white;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 9999px;
-  margin-top: 9rem;
-  padding: 0.5rem 1.2rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem 5rem;
   transition: 0.3s ease-in;
-  outline: none;
+  font-size: 1.4rem;
+}
+
+.card-button:hover {
+  background-color: rgb(207, 136, 77);
+  color: white !important;
 }
 
 .services-card:hover {
@@ -136,5 +141,55 @@
 
   100% {
     opacity: 1;
+  }
+}
+
+/*-------MEDIA QUERIES------------*/
+@media screen and (max-width: 1000px) {
+  .services {
+    margin-top: 0rem;
+    transform: scale(0.9);
+    margin-top: 5rem;
+  }
+
+  .row {
+    padding: 0rem;
+  }
+
+  .firstRow-cols-title {
+    font-size: 1.5rem;
+  }
+
+  .card-button {
+    margin-top: 1rem;
+    padding: 1rem 3.5rem;
+  }
+
+  .cardTitle {
+    padding: 0rem;
+  }
+
+  .coffeeIcon {
+    font-size: 5rem !important;
+  }
+
+  .dev-icon {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .services-card {
+    width: 100%;
+    height: 22rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .services-card:hover {
+    transform: scale(1.05);
+  }
+
+  .secondRow-cols-para {
+    padding: 1.5rem 2rem;
+    font-size: 0.8rem;
   }
 }

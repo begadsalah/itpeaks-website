@@ -3,17 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 .services-page {
-    background: linear-gradient(to top, #000000 34%, rgb(95, 68, 41) 100%);
+    background: linear-gradient(to top, #000000 44%, rgb(95, 68, 41) 100%);
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .services-page-title-div {
-    padding: 2.5rem 0;
     padding-bottom: 5rem;
+}
+
+.services-page-content-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .services-page-title {
@@ -26,7 +28,6 @@
     border-top: 2px solid rgb(95, 68, 41);
     border-bottom: 2px solid rgb(56, 56, 56);
     border-radius: 999999px;
-    margin-bottom: -8.2rem;
     padding: 2rem 5rem;
     letter-spacing: 0.3rem;
     font-weight: 600;
@@ -41,81 +42,43 @@
 }
 
 .services-card2 {
-    color: white;
-    margin-top: 9rem;
-    padding: 0rem 0rem;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    background: rgb(95, 68, 41);
+    background: radial-gradient(circle, rgba(95, 68, 41, 0.3) 0%, rgba(0, 0, 0, 1) 47%, rgba(0, 0, 0, 1) 65%);
+    border-radius: 100%;
+    margin-top: 4rem;
 }
-
 
 .cardTitle2 {
     font-size: 1rem;
     padding: 1rem;
+    cursor: pointer;
 
 }
 
-.card-button2 {
-    background-color: transparent;
-    color: white;
-    border: none;
-}
-
-.card-button2:hover {
+.cardTitle2:hover {
     color: rgb(94, 73, 52);
 }
 
-.learn-more-a-tag {
-    color: white;
-    text-decoration: none;
+.index-icon {
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 3rem;
 }
 
-.learn-more-a-tag:hover {
-    color: rgb(94, 73, 52);
-    text-decoration: none;
+.coffee-icon {
+    font-size: 4.5rem !important;
 }
 
-/*---------------MASKS-----------------*/
-.index-element-mask1 {
-    position: absolute;
-    padding: 2rem;
-    border-radius: 100%;
-    background: rgb(95, 68, 41, 0.3);
-    top: 26.5rem;
-    left: 16.5rem;
+.index-link {
+    text-decoration: none !important;
+    color: white !important;
 }
 
-.index-element-mask2 {
-    position: absolute;
-    padding: 2rem;
-    border-radius: 100%;
-    background: rgb(95, 68, 41, 0.3);
-    top: 27rem;
-    right: 16.5rem;
-}
-
-.index-element-mask3 {
-    position: absolute;
-    padding: 2rem;
-    border-radius: 100%;
-    background: rgb(95, 68, 41, 0.3);
-    top: 27rem;
-    left: 32.5rem;
-}
-
-.index-element-mask4 {
-    position: absolute;
-    padding: 2rem;
-    border-radius: 100%;
-    background: rgb(95, 68, 41, 0.3);
-    top: 27rem;
-    right: 32.5rem;
-}
-
-/*------------------------------------*/
 @media screen and (max-width: 1300px) {
 
     .index-element-mask1,
@@ -126,12 +89,46 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
+    .services-page-title-div {
+        padding: 0;
+    }
 
-    .firstRow3,
     .secondRow3 {
-        transform: scale(0.5);
-        padding: -5rem 0;
-        margin: -10rem 0;
+        padding: 0rem 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .services-card2 {
+        padding: 0 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .services-page-title {
+        max-width: 60rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        padding: 1rem 2rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .cardTitle2 {
+        font-size: 0.6rem;
+        padding: 0rem;
+    }
+
+    .learn-more-a-tag {
+        font-size: 0.5rem;
+    }
+
+    .index-icon {
+        color: rgba(255, 255, 255, 0.89);
+        font-size: 2rem;
+    }
+
+    .coffee-icon {
+        font-size: 3.5rem !important;
     }
 }

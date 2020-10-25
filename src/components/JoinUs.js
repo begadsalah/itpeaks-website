@@ -143,259 +143,111 @@ function JoinUs() {
           </Col>
         </Row>
       </Row>
-      <Row className="secondRow2">
-        <ScrollAnimation
-          animateIn="animate__fadeIn"
-          animateOut="animate__fadeOut"
-          duration={2}
-        >
-          <h3 className="secondRow2-title" id="apply">
-            Apply Now
-          </h3>
-        </ScrollAnimation>
-
-        <div className="thirdRow2-mask1 mask1x"></div>
-        <form
-          className={classes.root}
-          noValidate
-          autoComplete="off"
-          className="secondRow2-form"
-        >
-          <Row></Row>
-          <Row>
-            <Col md={4} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeInLeft"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <TextField
-                  id="standard-basic"
-                  label="Job Title that you applying for"
-                  type="text"
-                  required
-                  className="secondRow2-cols-input"
-                />
-              </ScrollAnimation>
-            </Col>
-            <Col md={4} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeInRight"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <PhoneInput
-                  international
-                  defaultCountry="EG"
-                  value={value}
-                  onChange={setValue}
-                  className="secondRow2-cols-input"
-                  placeholder="Phone number"
-                />
-              </ScrollAnimation>
-            </Col>
-            <Col md={12} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeInLeft"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <div className="file-input-div">
-                  <input type="file" name="file" id="file" class="inputfile" />
-                  <label for="file">Please insert your resume *</label>
-                </div>
-              </ScrollAnimation>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={12} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeIn"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <TextField
-                  id="standard-basic"
-                  label="What makes you the perfect candidate?"
-                  multiline
-                  rows={3}
-                  rowsMax={6}
-                  required
-                  className="secondRow2-cols-input"
-                />
-              </ScrollAnimation>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={12} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeIn"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <Button
-                  variant="outlined"
-                  className="secondRow2-form-button"
-                  type="submit"
+      <Row className="secondRow2-1">
+        <div className="apply-div">
+          <ScrollAnimation
+            animateIn="animate__fadeIn"
+            animateOut="animate__fadeOut"
+            duration={2}
+          >
+            <h3 className="secondRow2-title-1" id="apply">
+              Apply Now
+            </h3>
+          </ScrollAnimation>
+          <form
+            className={classes.root}
+            noValidate
+            autoComplete="off"
+            className="secondRow2-form-1"
+          >
+            <Row>
+              <Col md={6} xs={12} className="secondRow2-cols-1">
+                <ScrollAnimation
+                  animateIn="animate__fadeInLeft"
+                  animateOut="animate__fadeOut"
+                  duration={2}
                 >
-                  Submit
-                </Button>
-              </ScrollAnimation>
-            </Col>
-          </Row>
-        </form>
-      </Row>
-      <Row className="secondRow2">
-        <ScrollAnimation
-          animateIn="animate__fadeIn"
-          animateOut="animate__fadeOut"
-          duration={2}
-        >
-          <h3 className="secondRow2-title">
-            And if you wanna contact us fill in the followings
-          </h3>
-        </ScrollAnimation>
-
-        <div className="thirdRow2-mask1"></div>
-        <form
-          className={classes.root}
-          noValidate
-          autoComplete="off"
-          className="secondRow2-form"
-        >
-          <Row>
-            <Col md={4} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeInLeft"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <TextField
-                  id="standard-basic"
-                  label="First Name"
-                  type="text"
-                  required
-                  className="secondRow2-cols-input"
-                />
-              </ScrollAnimation>
-            </Col>
-            <Col md={4} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeIn"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <TextField
-                  id="standard-basic"
-                  label="Last Name"
-                  type="text"
-                  required
-                  className="secondRow2-cols-input"
-                />
-              </ScrollAnimation>
-            </Col>
-
-            <Col md={4} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeInRight"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <TextField
-                  id="standard-basic"
-                  label="Email address"
-                  type="email"
-                  required
-                  className="secondRow2-cols-input"
-                />
-              </ScrollAnimation>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={4} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeInLeft"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <TextField
-                  id="standard-basic"
-                  label="Organization"
-                  type="text"
-                  required
-                  className="secondRow2-cols-input"
-                />
-              </ScrollAnimation>
-            </Col>
-            <Col md={4} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeIn"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <TextField
-                  id="standard-basic"
-                  label="Job Title"
-                  type="text"
-                  required
-                  className="secondRow2-cols-input"
-                />
-              </ScrollAnimation>
-            </Col>
-            <Col md={4} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeInRight"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <PhoneInput
-                  international
-                  defaultCountry="EG"
-                  value={value}
-                  onChange={setValue}
-                  className="secondRow2-cols-input"
-                  placeholder="Phone number"
-                />
-              </ScrollAnimation>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={12} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeIn"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <TextField
-                  id="standard-basic"
-                  label="How can we help?"
-                  multiline
-                  rows={3}
-                  rowsMax={6}
-                  required
-                  className="secondRow2-cols-input"
-                />
-              </ScrollAnimation>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={12} xs={12} className="secondRow2-cols">
-              <ScrollAnimation
-                animateIn="animate__fadeIn"
-                animateOut="animate__fadeOut"
-                duration={2}
-              >
-                <Button
-                  variant="outlined"
-                  className="secondRow2-form-button"
-                  type="submit"
+                  <TextField
+                    id="standard-basic"
+                    label="Job Title that you applying for"
+                    type="text"
+                    required
+                    className="secondRow2-cols-1-input"
+                  />
+                </ScrollAnimation>
+              </Col>
+              <Col md={6} xs={12} className="secondRow2-1-cols">
+                <ScrollAnimation
+                  animateIn="animate__fadeInRight"
+                  animateOut="animate__fadeOut"
+                  duration={2}
                 >
-                  Submit
-                </Button>
-              </ScrollAnimation>
-            </Col>
-          </Row>
-        </form>
+                  <PhoneInput
+                    international
+                    defaultCountry="EG"
+                    value={value}
+                    onChange={setValue}
+                    className="secondRow2-cols-1-input"
+                    placeholder="Phone number"
+                  />
+                </ScrollAnimation>
+              </Col>
+              <Col md={12} xs={12} className="secondRow2-1-cols">
+                <ScrollAnimation
+                  animateIn="animate__fadeInLeft"
+                  animateOut="animate__fadeOut"
+                  duration={1}
+                >
+                  <div className="file-input-div">
+                    <input
+                      type="file"
+                      name="file"
+                      id="file"
+                      class="inputfile"
+                    />
+                    <label for="file">Please insert your resume *</label>
+                  </div>
+                </ScrollAnimation>
+              </Col>
+            </Row>
+            <Row>
+              <Col md={12} xs={12} className="secondRow2-1-cols">
+                <ScrollAnimation
+                  animateIn="animate__fadeIn"
+                  animateOut="animate__fadeOut"
+                  duration={1}
+                >
+                  <TextField
+                    id="standard-basic"
+                    label="What makes you the perfect candidate?"
+                    multiline
+                    rows={4}
+                    rowsMax={6}
+                    required
+                    className="secondRow2-cols-input-1"
+                  />
+                </ScrollAnimation>
+              </Col>
+            </Row>
+            <Row>
+              <Col md={12} xs={12} className="secondRow2-1-cols">
+                <ScrollAnimation
+                  animateIn="animate__fadeIn"
+                  animateOut="animate__fadeOut"
+                  duration={1}
+                >
+                  <Button
+                    variant="outlined"
+                    className="secondRow2-form-button-1"
+                    type="submit"
+                  >
+                    Submit
+                  </Button>
+                </ScrollAnimation>
+              </Col>
+            </Row>
+          </form>
+        </div>
       </Row>
     </div>
   );

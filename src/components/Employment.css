@@ -7,7 +7,7 @@
     justify-content: center;
     text-align: center;
     color: rgba(255, 255, 255, 0.719);
-    padding: 12rem 0;
+    padding: 0 1rem;
 }
 
 .employment-firstRow {
@@ -15,10 +15,11 @@
     align-items: center;
     justify-content: center;
     font-size: 2.5rem;
-    border-top: 3px solid rgba(255, 255, 255, 0.445);
-    border-bottom: 3px solid rgba(255, 255, 255, 0.445);
-    border-radius: 99999px;
+    border-top: 2px solid rgb(95, 68, 41);
+    border-bottom: 2px solid rgb(56, 56, 56);
+    border-radius: 999999px;
     cursor: pointer;
+    padding: 5rem 0rem;
 }
 
 .firstRow-cols {
@@ -40,8 +41,17 @@
     color: rgba(255, 255, 255, 0.719) !important;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
+    .employment {
+        padding: 0 3rem;
+    }
+
     .employment-firstRow {
-        border: none;
+        font-size: 1rem;
+        padding: 2rem 0rem;
+    }
+
+    .cols-title {
+        font-size: 2.5rem;
     }
 }

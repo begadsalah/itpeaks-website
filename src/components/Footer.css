@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
 .footer {
-    background: url("https://i.ibb.co/7kRDpKc/footer-Background2-2.jpg") no-repeat center center;
+    background: url("https://i.ibb.co/7kRDpKc/footer-Background2-2.jpg") no-repeat top;
     background-size: cover;
-    padding-top: 20rem;
+    padding-top: 18rem;
     font-size: 0.9rem;
     font-family: "Montserrat", sans-serif;
     color: rgba(255, 255, 255, 0.856);

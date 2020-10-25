@@ -1,6 +1,5 @@
 import React from "react";
 import "./Services.css";
-import Container from "@material-ui/core/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
@@ -158,7 +157,7 @@ $(function () {
       );
     },
     function () {
-      $("#dev-icon4").css("color", "");
+      $("#dev-icon4").css("color", "white");
       $("#card-button4").css("border-color", "");
       $("#card-button4").css("color", "");
       $("#cardTitle4").css("animation", "");
@@ -169,132 +168,129 @@ $(function () {
 function Services() {
   return (
     <div className="services" id="services">
-      <Container maxWidth="lg" disableGutters>
-        <Row className="firstRow rows">
-          <Col className="firstRow-cols">
-            <ScrollAnimation animateIn="animate__fadeIn" duration={2}>
-              <h1 className="firstRow-cols-title">WHAT WE DO</h1>
-            </ScrollAnimation>
+      <Row className="firstRow rows">
+        <Col className="firstRow-cols">
+          <h1 className="firstRow-cols-title">WHAT WE DO</h1>
+        </Col>
+      </Row>
+      <Row className="secondRow rows">
+        <ScrollAnimation animateIn="animate__fadeIn" duration={3}>
+          <Col className="secondRow-cols">
+            <h4 className="secondRow-cols-para">
+              We design and develop digital products and online experiences that
+              help our clients grow, innovate, and transform.
+            </h4>
           </Col>
-        </Row>
-        <Row className="secondRow rows">
-          <ScrollAnimation animateIn="animate__fadeIn" duration={3}>
-            <Col className="secondRow-cols">
-              <h4 className="secondRow-cols-para">
-                We design and develop digital products and online experiences
-                that help our clients grow, innovate, and transform.
-              </h4>
-            </Col>
-          </ScrollAnimation>
-        </Row>
-        <Row className="thirdRow rows">
-          <Col lg={3} md={4} sm={6} xs={12} className="thirdRow-cols  cardCol">
-            <ScrollAnimation
-              animateIn="animate__fadeInLeft"
-              animateOut="animate__fadeOut"
-              duration={2}
-            >
-              <div className="services-card" id="services-card1">
-                <FontAwesomeIcon
-                  icon={faPencilRuler}
-                  className="dev-icon"
-                  id="dev-icon1"
-                />
-                <h5 className="cardTitle" id="cardTitle1">
-                  Web &
-                  <br />
-                  app developing
-                </h5>
-                <Link to="/services">
-                  <button className="card-button" id="card-button1">
-                    Learn more
-                  </button>
-                </Link>
-              </div>
-            </ScrollAnimation>
-          </Col>
-          <Col lg={3} md={4} sm={6} xs={12} className="thirdRow-cols cardCol">
-            <ScrollAnimation
-              animateIn="animate__fadeIn"
-              animateOut="animate__fadeOut"
-              duration={2}
-            >
-              <div className="services-card" id="services-card2">
-                <FontAwesomeIcon
-                  icon={faSketch}
-                  className="dev-icon"
-                  id="dev-icon2"
-                />
-                <h5 className="cardTitle" id="cardTitle2">
-                  Web &<br />
-                  app designing
-                </h5>
-                <Link to="/services">
-                  <button className="card-button" id="card-button2">
-                    Learn more
-                  </button>
-                </Link>
-              </div>
-            </ScrollAnimation>
-          </Col>
-          <Col lg={3} md={4} sm={6} xs={12} className="thirdRow-cols cardCol">
-            <ScrollAnimation
-              animateIn="animate__fadeIn"
-              animateOut="animate__fadeOut"
-              duration={2}
-            >
-              <div className="services-card" id="services-card3">
-                <FontAwesomeIcon
-                  icon={faBrain}
-                  className="dev-icon"
-                  id="dev-icon3"
-                />
-                <h5 className="cardTitle" id="cardTitle3">
-                  User interface &<br />
-                  user experience
-                </h5>
-                <Link to="/services">
-                  <button className="card-button" id="card-button3">
-                    Learn more
-                  </button>
-                </Link>
-              </div>
-            </ScrollAnimation>
-          </Col>
-          <Col lg={3} md={4} sm={6} xs={12} className="thirdRow-cols cardCol">
-            <ScrollAnimation
-              animateIn="animate__fadeInRight"
-              animateOut="animate__fadeOut"
-              duration={2}
-            >
-              <div className="services-card" id="services-card4">
-                <EmojiFoodBeverageOutlinedIcon
-                  className="dev-icon coffeeIcon"
-                  id="dev-icon4"
-                />
-                <h5 className="cardTitle" id="cardTitle4">
-                  Professional <br /> consulting
-                </h5>
-                <Link to="/services">
-                  <button className="card-button" id="card-button4">
-                    Learn more
-                  </button>
-                </Link>
-              </div>
-            </ScrollAnimation>
-          </Col>
-        </Row>
-        <Row className="fourthRow rows">
-          <StyleRoot style={styles.fadeIn}>
-            <Col className="fourthRow-cols see-more">
-              <Link to="/services" className="link">
-                <span className="see-more-span">SEE MORE </span>
+        </ScrollAnimation>
+      </Row>
+      <Row className="thirdRow rows">
+        <Col lg={6} md={6} sm={6} xs={12} className="thirdRow-cols  cardCol">
+          <ScrollAnimation
+            animateIn="animate__fadeInLeft"
+            animateOut="animate__fadeOut"
+            duration={1}
+            className="thirdRow-cols"
+          >
+            <div className="services-card" id="services-card1">
+              <FontAwesomeIcon
+                icon={faPencilRuler}
+                className="dev-icon"
+                id="dev-icon1"
+              />
+              <h5 className="cardTitle" id="cardTitle1">
+                Web & app <br />
+                developing
+              </h5>
+              <Link to="/services">
+                <button className="card-button" id="card-button1">
+                  Learn more
+                </button>
               </Link>
-              <ArrowForwardIcon className="see-more-span" />
-            </Col>
-          </StyleRoot>
-        </Row>
-      </Container>
+            </div>
+          </ScrollAnimation>
+        </Col>
+        <Col lg={6} md={6} sm={6} xs={12} className="thirdRow-cols cardCol">
+          <ScrollAnimation
+            animateIn="animate__fadeInRight"
+            animateOut="animate__fadeOut"
+            duration={1}
+          >
+            <div className="services-card" id="services-card2">
+              <FontAwesomeIcon
+                icon={faSketch}
+                className="dev-icon"
+                id="dev-icon2"
+              />
+              <h5 className="cardTitle" id="cardTitle2">
+                Web & app
+                <br />
+                designing
+              </h5>
+              <Link to="/services">
+                <button className="card-button" id="card-button2">
+                  Learn more
+                </button>
+              </Link>
+            </div>
+          </ScrollAnimation>
+        </Col>
+        <Col lg={6} md={6} sm={6} xs={12} className="thirdRow-cols cardCol">
+          <ScrollAnimation
+            animateIn="animate__fadeInLeft"
+            animateOut="animate__fadeOut"
+            duration={1}
+          >
+            <div className="services-card" id="services-card3">
+              <FontAwesomeIcon
+                icon={faBrain}
+                className="dev-icon"
+                id="dev-icon3"
+              />
+              <h5 className="cardTitle" id="cardTitle3">
+                User interface &<br />
+                user experience
+              </h5>
+              <Link to="/services">
+                <button className="card-button" id="card-button3">
+                  Learn more
+                </button>
+              </Link>
+            </div>
+          </ScrollAnimation>
+        </Col>
+        <Col lg={6} md={6} sm={6} xs={12} className="thirdRow-cols cardCol">
+          <ScrollAnimation
+            animateIn="animate__fadeInRight"
+            animateOut="animate__fadeOut"
+            duration={1}
+          >
+            <div className="services-card" id="services-card4">
+              <EmojiFoodBeverageOutlinedIcon
+                className="dev-icon coffeeIcon"
+                id="dev-icon4"
+              />
+              <h5 className="cardTitle" id="cardTitle4">
+                Professional <br /> consulting
+              </h5>
+              <Link to="/services">
+                <button className="card-button" id="card-button4">
+                  Learn more
+                </button>
+              </Link>
+            </div>
+          </ScrollAnimation>
+        </Col>
+      </Row>
+      <Row className="fourthRow rows">
+        <StyleRoot style={styles.fadeIn}>
+          <Col className="fourthRow-cols see-more">
+            <Link to="/services" className="link">
+              <span className="see-more-span">SEE MORE </span>
+            </Link>
+            <ArrowForwardIcon className="see-more-span" />
+          </Col>
+        </StyleRoot>
+      </Row>
     </div>
   );
 }

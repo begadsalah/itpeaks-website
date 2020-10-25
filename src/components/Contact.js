@@ -27,8 +27,6 @@ function Contact() {
     <Container maxWidth="xl" disableGutters>
       <div className="contact">
         <NavBar />
-        <div className="thirdRow2-mask2"></div>
-        <div className="thirdRow2-mask3"></div>
         <Row className="firstRow2">
           <Col md={12} xs={12} className="firstRow2-cols">
             <Col md={6} className="firstRow2-text-content">
@@ -42,7 +40,6 @@ function Contact() {
             </Col>
           </Col>
         </Row>
-
         <Row className="thirdRow2">
           <ScrollAnimation
             animateIn="animate__fadeIn"
@@ -69,8 +66,6 @@ function Contact() {
               Please fill in the following inputs
             </h3>
           </ScrollAnimation>
-
-          <div className="thirdRow2-mask1"></div>
           <form
             className={classes.root}
             noValidate

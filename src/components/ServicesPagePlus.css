@@ -5,17 +5,23 @@
 .services-page-plus {
     background-color: black;
     font-family: 'Poppins', sans-serif;
-    transform: scale(0.8);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 4rem;
+}
+
+.services-row {
+    padding: 1rem 0;
 }
 
 .cols-title {
+    text-align: center;
     color: white;
     letter-spacing: 0.35rem;
     padding-bottom: 1rem;
+    font-size: 3.5rem;
 }
 
 .cols-para {
@@ -27,16 +33,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 8rem 2rem;
+    padding: 5rem 1rem;
     z-index: 1;
 }
 
-.web-app-deve-section {
-    margin-bottom: 5rem;
-}
-
 .cols-section-num {
-    color: rgb(224, 140, 71);
+    color: rgb(224, 140, 71, 0.7);
     font-size: 20rem;
     position: absolute;
     opacity: 0.1;
@@ -45,8 +47,8 @@
 
 .imageBackground-div {
     background: linear-gradient(to top, #000000 10%, #5c391d 100%);
-    width: 42rem;
-    height: 42rem;
+    width: 35rem;
+    height: 35rem;
     border-radius: 100%;
     position: absolute;
     opacity: 0.2;
@@ -60,11 +62,11 @@
     margin-top: 30rem;
     margin-right: 35rem;
     background: linear-gradient(to top, #000000 3%, #a5612a73 100%);
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 100%;
     position: absolute;
-    opacity: 0.9;
+    opacity: 0.8;
     z-index: 1;
 }
 
@@ -75,61 +77,84 @@
     margin-top: 30rem;
     margin-left: 35rem;
     background: linear-gradient(to top, #000000 3%, #a5612a73 100%);
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 100%;
     position: absolute;
-    opacity: 0.9;
+    opacity: 0.8;
     z-index: 1;
 }
 
 .imageBackground-div2-title {
     color: rgb(255, 255, 255);
-    font-size: 5rem;
+    font-size: 3rem;
     position: absolute;
-    text-shadow: 5px 5px #000000;
     opacity: 0.9;
     z-index: 0;
 }
 
 @media screen and (max-width: 1000px) {
-
-    /* .imageBackground-div,
-    .imageBackground-div2,
-    .imageBackground-div2-1,
-    .imageBackground-div2-title {
-        display: none;
-    }
-
-    .cols-text-content-div {
-        transform: scale(0.8);
-    }*/
-}
-
-@media screen and (max-width: 700px) {
-
-    .services-page-firstRow,
-    .services-page-secondRow,
-    .services-page-thirdRow,
-    .services-page-fourthRow {
-        transform: scale(0.3);
-        margin-top: -20rem;
-        padding: 0;
-    }
-
-    .imageBackground-div,
-    .imageBackground-div2,
-    .imageBackground-div2-1,
-    .imageBackground-div2-title {
-        display: none;
-    }
-
-    .cols-text-content-div {
-        padding: 0;
-        margin: 0;
+    .services-page-plus {
+        margin-top: 3rem;
     }
 
     .cols-title {
-        transform: scale(0.6);
+        font-size: 2rem;
+        letter-spacing: 0.35rem;
+        padding-bottom: 1rem;
+    }
+
+    .cols-para {
+        font-size: 0.9rem;
+    }
+
+    .cols-text-content-div {
+        padding: 0 1rem;
+        z-index: 1;
+    }
+
+    .web-app-deve-section {
+        margin-bottom: 0rem;
+    }
+
+    .cols-section-num {
+        font-size: 15rem;
+        opacity: 0.2;
+    }
+
+    .imageBackground-div {
+        width: 18rem;
+        height: 18rem;
+        opacity: 0.3;
+    }
+
+    .imageBackground-div2 {
+        margin-top: 6rem;
+        left: 2rem;
+        width: 5rem;
+        height: 5rem;
+        opacity: 0.7;
+    }
+
+    .imageBackground-div2-1 {
+        margin-top: 6rem;
+        right: 2rem;
+        width: 5rem;
+        height: 5rem;
+        opacity: 0.7;
+    }
+
+    .imageBackground-div2-title {
+        font-size: 2rem;
+        opacity: 0.7;
+    }
+
+    .services-page-plus-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cols-text-content-div {
+        padding: 4rem 1rem;
     }
 }

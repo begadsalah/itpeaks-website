@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 .join-us {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif !important;
     background: linear-gradient(to top, #000000 91%, rgb(95, 68, 41) 100%);
     color: white;
     display: flex;
@@ -187,8 +189,62 @@
 }
 
 
+.secondRow2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #a55c1b;
+    background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 8rem 0rem !important;
+    border-radius: 100%;
+}
+
+
+.secondRow2-title-1 {
+    border-top: 2px solid rgb(95, 68, 41);
+    border-bottom: 2px solid rgb(56, 56, 56);
+    border-radius: 999999px;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.secondRow2-cols-input-1 {
+    width: 70%;
+}
+
+.file-input-div {
+    width: 40%;
+}
+
+.secondRow2-cols-1-input {
+    width: 60%;
+    padding: 0 1rem;
+}
+
+.secondRow2-form-button-1 {
+    color: white !important;
+    padding: 0.8rem 5rem !important;
+    margin: 2rem 0 !important;
+    border: 3px solid #8E755D !important;
+    border-radius: 99999px !important;
+}
 
 /*--------------MASKS-------------*/
 .mask1x {
     padding: 13rem 33rem !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .join-us {
+        display: block;
+    }
+
+    .secondRow2-1 {
+        width: 100%;
+        padding: 3rem 0rem !important;
+        border-radius: 0%;
+    }
 }

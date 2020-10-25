@@ -9,12 +9,12 @@ import ScrollAnimation from "react-animate-on-scroll";
 function ServicesPagePlus() {
   return (
     <div className="services-page-plus">
-      <Row className="services-page-firstRow">
+      <Row className="services-page-firstRow services-row">
         <Col className="firstRow-cols" md={6} xs={12}>
           <ScrollAnimation
             animateIn="animate__fadeInLeft"
             animateOut="animate__fadeOut"
-            duration={2}
+            duration={1}
           >
             <div className="imageBackground-div"></div>
             <div className="imageBackground-div2">
@@ -26,7 +26,7 @@ function ServicesPagePlus() {
               alt=""
               width="500"
               height="500"
-              id="01"
+              className="services-page-plus-image"
             />
           </ScrollAnimation>
         </Col>
@@ -34,7 +34,7 @@ function ServicesPagePlus() {
           <ScrollAnimation
             animateIn="animate__fadeInRight"
             animateOut="animate__fadeOut"
-            duration={2}
+            duration={1}
           >
             <div className="cols-text-content-div web-app-deve-section">
               <h3 className="cols-section-num">01</h3>
@@ -45,26 +45,17 @@ function ServicesPagePlus() {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
                 ratione odio illo libero porro itaque ipsum, fuga hic, nobis
                 quidem sapiente, commodi in non doloribus minima veritatis
-                cupiditate. Animi et tempora quae odit, laudantium neque culpa
-                facilis iste corrupti ipsa! Delectus perferendis cupiditate at.
-                Fuga fugiat veniam facere dolores ex!Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Dicta ratione odio illo libero
-                porro itaque ipsum, fuga hic, nobis quidem sapiente, commodi in
-                non doloribus minima veritatis cupiditate. Animi et tempora quae
-                odit, laudantium neque culpa facilis iste corrupti ipsa!
-                Delectus perferendis cupiditate at. Fuga fugiat veniam facere
-                dolores ex!
               </p>
             </div>
           </ScrollAnimation>
         </Col>
       </Row>
-      <Row className="services-page-secondRow">
+      <Row className="services-page-secondRow services-row">
         <Col className="secondRow-cols" md={6} xs={12}>
           <ScrollAnimation
             animateIn="animate__fadeInLeft"
             animateOut="animate__fadeOut"
-            duration={2}
+            duration={1}
           >
             <div className="cols-text-content-div">
               <h3 className="cols-section-num">02</h3>
@@ -75,15 +66,6 @@ function ServicesPagePlus() {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
                 ratione odio illo libero porro itaque ipsum, fuga hic, nobis
                 quidem sapiente, commodi in non doloribus minima veritatis
-                cupiditate. Animi et tempora quae odit, laudantium neque culpa
-                facilis iste corrupti ipsa! Delectus perferendis cupiditate at.
-                Fuga fugiat veniam facere dolores ex!Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Dicta ratione odio illo libero
-                porro itaque ipsum, fuga hic, nobis quidem sapiente, commodi in
-                non doloribus minima veritatis cupiditate. Animi et tempora quae
-                odit, laudantium neque culpa facilis iste corrupti ipsa!
-                Delectus perferendis cupiditate at. Fuga fugiat veniam facere
-                dolores ex!
               </p>
             </div>
           </ScrollAnimation>
@@ -92,7 +74,7 @@ function ServicesPagePlus() {
           <ScrollAnimation
             animateIn="animate__fadeInRight"
             animateOut="animate__fadeOut"
-            duration={2}
+            duration={1}
           >
             <div className="imageBackground-div"></div>
             <div className="imageBackground-div2-1">
@@ -104,16 +86,17 @@ function ServicesPagePlus() {
               alt=""
               width="400"
               height="400"
+              className="services-page-plus-image"
             />
           </ScrollAnimation>
         </Col>
       </Row>
-      <Row className="services-page-thirdRow">
+      <Row className="services-page-thirdRow services-row">
         <Col className="thirdRow-cols" md={6} xs={12}>
           <ScrollAnimation
             animateIn="animate__fadeInLeft"
             animateOut="animate__fadeOut"
-            duration={2}
+            duration={1}
           >
             <div className="imageBackground-div"></div>
             <div className="imageBackground-div2">
@@ -125,6 +108,7 @@ function ServicesPagePlus() {
               alt=""
               width="500"
               height="500"
+              className="services-page-plus-image"
             />
           </ScrollAnimation>
         </Col>
@@ -132,7 +116,7 @@ function ServicesPagePlus() {
           <ScrollAnimation
             animateIn="animate__fadeInRight"
             animateOut="animate__fadeOut"
-            duration={2}
+            duration={1}
           >
             <div className="cols-text-content-div">
               <h3 className="cols-section-num">03</h3>
@@ -143,26 +127,17 @@ function ServicesPagePlus() {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
                 ratione odio illo libero porro itaque ipsum, fuga hic, nobis
                 quidem sapiente, commodi in non doloribus minima veritatis
-                cupiditate. Animi et tempora quae odit, laudantium neque culpa
-                facilis iste corrupti ipsa! Delectus perferendis cupiditate at.
-                Fuga fugiat veniam facere dolores ex!Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Dicta ratione odio illo libero
-                porro itaque ipsum, fuga hic, nobis quidem sapiente, commodi in
-                non doloribus minima veritatis cupiditate. Animi et tempora quae
-                odit, laudantium neque culpa facilis iste corrupti ipsa!
-                Delectus perferendis cupiditate at. Fuga fugiat veniam facere
-                dolores ex!
               </p>
             </div>
           </ScrollAnimation>
         </Col>
       </Row>
-      <Row className="services-page-fourthRow">
+      <Row className="services-page-fourthRow services-row">
         <Col className="fourthRow-cols" md={6} xs={12}>
           <ScrollAnimation
             animateIn="animate__fadeInLeft"
             animateOut="animate__fadeOut"
-            duration={2}
+            duration={1}
           >
             <div className="cols-text-content-div">
               <h3 className="cols-section-num">04</h3>
@@ -174,14 +149,6 @@ function ServicesPagePlus() {
                 ratione odio illo libero porro itaque ipsum, fuga hic, nobis
                 quidem sapiente, commodi in non doloribus minima veritatis
                 cupiditate. Animi et tempora quae odit, laudantium neque culpa
-                facilis iste corrupti ipsa! Delectus perferendis cupiditate at.
-                Fuga fugiat veniam facere dolores ex!Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Dicta ratione odio illo libero
-                porro itaque ipsum, fuga hic, nobis quidem sapiente, commodi in
-                non doloribus minima veritatis cupiditate. Animi et tempora quae
-                odit, laudantium neque culpa facilis iste corrupti ipsa!
-                Delectus perferendis cupiditate at. Fuga fugiat veniam facere
-                dolores ex!
               </p>
             </div>
           </ScrollAnimation>
@@ -202,6 +169,7 @@ function ServicesPagePlus() {
               alt=""
               width="500"
               height="500"
+              className="services-page-plus-image"
             />
           </ScrollAnimation>
         </Col>

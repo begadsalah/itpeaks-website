@@ -56,7 +56,6 @@ function App() {
             <CssBaseline>
               <Container maxWidth="xl" disableGutters>
                 <Home />
-                <Services></Services>
                 <Employment></Employment>
                 <Footer></Footer>
               </Container>
