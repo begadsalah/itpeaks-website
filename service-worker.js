@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/itpeaks-website/precache-manifest.dce68278b50548a66cbf01fdf55e0e6a.js"
+  "/itpeaks-website/precache-manifest.50d6e898b521febefaa29a0237861ca8.js"
 );
 
 self.addEventListener('message', (event) => {
